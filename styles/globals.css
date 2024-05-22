@@ -2,16 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-ubuntu-font {
-  font-family: 'Ubuntu', sans-serif; /* Utilisation de la police 'Ubuntu' */
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-}
-
-* {
-  box-sizing: border-box;
-}

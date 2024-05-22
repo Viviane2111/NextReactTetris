@@ -588,6 +588,11 @@ object-hash@^3.0.0:
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-3.0.0.tgz#73f97f753e7baffc0e2cc9d6e079079744ac82e9"
   integrity sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==
 
+p5@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/p5/-/p5-1.9.3.tgz#bc0da17a392113c066f0eac749c38f14517ce07b"
+  integrity sha512-RnLMqejKJ9ZmBlUpCnVLYF1UnV/NnC13MfOSZdvJXTRH1eQkBQkUVCw5rkyRWE6chI4t5KvIJsZZnFzmGJEgag==
+
 path-key@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"

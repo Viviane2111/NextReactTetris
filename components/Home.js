@@ -1,17 +1,19 @@
-export default function Home() {
+import React from "react";
+import GameBoard from "./GameBoard";
+
+const Home = () => {
   return (
     <div>
-      <main className="custom-ubuntu-font flex flex-col justify-center items-center min-h-screen py-16">
-        <h1 className="text-6xl md:text-6xl lg:text-7xl font-semibold leading-normal">
-          Welcome to{" "}
-          <a
-            className="text-blue-500 hover:underline"
-            href="https://nextjs.org"
-          >
-            Next.js!
-          </a>
-        </h1>
+      <main className="rounded-md">
+        <div className="gameBoy flex flex-col items-center justify-center h-auto bg-gray-800 rounded-lg border-gray-800 border-2">
+          <h1 className="text-xl text-white text-center mt-2">Tetris</h1>
+          <div className="relative border-2 border-gray-500 mx-auto mt-2 rounded-md">
+            <GameBoard />
+          </div>
+        </div>
       </main>
     </div>
   );
-}
+};
+
+export default Home;
